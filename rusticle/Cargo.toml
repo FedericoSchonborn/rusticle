@@ -1,0 +1,12 @@
+[package]
+name = "rusticle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.rusticle-macros]
+version = "*"
+path = "../rusticle-macros"
+
+[features]
+default = []
+nightly = []
